@@ -1,4 +1,4 @@
-FROM docker.io/python:3.12.4-alpine3.20
+FROM docker.io/python:3.13.3-alpine3.22
 
 RUN apk add --no-cache gcc libc-dev
 RUN pip install --upgrade pip
